@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* vod_youtube */
+.wmax #contents .vod_youtube{width:882px;}
+.wmax #contents .vod_youtube ul{width:902px;overflow:hidden;}
+.wmax #contents .vod_youtube ul li{margin:15px 18px 0 0;float:left;width:282px;}
+.wmax #contents .vod_youtube ul li a{color:#333;}
+.wmax #contents .vod_youtube ul li a:hover span{text-decoration:underline;}
+.wmax #contents .vod_youtube ul li a span{display:block;}
+.wmax #contents .vod_youtube ul li a span.h6{text-align:center;color:#333;font-weight:700;margin: 20px 0 5px 0;line-height: 12px;}
+.wmax #contents .vod_youtube ul li a span.tit2{text-align:center;color:#555;margin: 0 0 23px 0;line-height: 18px;}
+.wmax #contents .vod_youtube ul li a span.tit3{color:#555;line-height: 12px;}
+.wmax #contents .vod_youtube ul li img{width:207px;height:153px;}
+.wmax #contents .vod_youtube p.more{display:none;}
+.wmax #contents .vod_youtube ul li iframe{width: 282px;height: 181px;}
+
+.wmin #contents .vod_youtube{width:100%;}
+.wmin #contents .vod_youtube ul li.none{display:none;}
+.wmin #contents .vod_youtube h2{margin-bottom:8px;}
+.wmin #contents .vod_youtube ul{width:100%;overflow:hidden;text-align: center;}
+.wmin #contents .vod_youtube ul li{float:left;margin-bottom:15px;width:50%;*width:49.9%;}
+.wmin #contents .vod_youtube ul li a{color:#333;display: block;margin:0 auto;width:142px;text-align: left;}
+.wmin #contents .vod_youtube ul li span{display:block;}
+.wmin #contents .vod_youtube ul li span.h6{text-align:center;color:#333;margin: 10px 0 2px 0;line-height: 12px;font-size: 10px;font-weight:700;}
+.wmin #contents .vod_youtube ul li span.tit2{text-align:center;color:#555;margin: 0 0 16px 0;line-height: 14px;font-size: 10px;max-height: 42px;overflow: hidden;}
+.wmin #contents .vod_youtube ul li span.tit3{color:#555;line-height: 12px;font-size: 10px;width:142px;margin:0 auto;text-align:left;}
+.wmin #contents .vod_youtube ul li img{width:142px;height:107px;}
+.wmin #contents .vod_youtube p.more{width:auto;height:26px;border:1px solid #e6e6e6;*margin-top:15px;}
+.wmin #contents .vod_youtube p.more a{display:block;width:auto;height:18px;border:1px solid #fff;padding-top:6px;background:#efefef;color:#333333;font-weight:700;text-align:center;}
+.wmin #contents .vod_youtube ul li iframe{width: 142px;height: 95px;}
+
+/* 2202 gnb 수정-추가 */
+.wmax #menu_area .gnb ul#main_menu li.family{display: none;} /* PC에서 family channel 숨김처리 */
+
+.wmin #menu_area .gnb ul#main_menu{overflow:visible;padding-top: 0px !important;}
+.wmin #menu_area .gnb ul#main_menu.off{border-bottom:3px solid #464646;}
+.wmin #menu_area .gnb .wrap_gnb ul#main_menu li.depth1 span{position: relative;}
+
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb{display: flex; width: 100%; flex-wrap: wrap;}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.depth1{width: 50% !important;box-sizing: border-box;border-bottom:1px solid #e8e8e8; background: none;}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.depth1 a.depth1_a{text-decoration: none;}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.depth1:nth-child(odd){border-right:1px solid #e8e8e8}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.depth1 span{width: 100%; height: auto;}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.depth1 span a{font-size: 13px;padding: 10px; display: inline-block; width: 100%;box-sizing: border-box; height: auto; }
+
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.ch_info{width: 50% !important;box-sizing: border-box;border-bottom:1px solid #e8e8e8; background: none;}
+.wmin #menu_area .gnb ul#main_menu .wrap_gnb li.ch_info a.depth1_a{text-decoration: none;font-size: 13px;}
+
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu1{position: relative}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu2{position: relative ; left: 0;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu3{position: relative; top:0}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu4{position: relative; top:0; left: 0;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu5{position: relative; top:0}
+.wmin #menu_area .gnb ul#main_menu li.talk span.tap_menu5{position: relative; top:0; left: 0;}
+
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu1 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu2 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu3 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu4 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.depth1 span.tap_menu5 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.talk span.tap_menu5 a{border: none; background: none;}
+.wmin #menu_area .gnb ul#main_menu li.talk span{height: auto; width: 100%;}
+.wmin #menu_area .gnb ul#main_menu li.talk span a{padding: 10px; box-sizing: border-box; height: auto;}
+
+.wmin #menu_area .gnb .program_menu{position:absolute;border-bottom: 1px solid #e8e8e8;border-top: 1px solid #e8e8e8;background:#fff;padding:0 15px 15px;overflow: hidden;display:none;z-index: 999;left: 0;width: 100%; box-sizing: border-box;}
+.wmin #menu_area .gnb .program_menu dt{font-size: 12px;color: #333; font-weight:700;line-height: 26px;margin-top:10px;clear: both;background:url(/cinef/images/channel/program_menu_dt.gif) no-repeat 3px center;padding-left: 13px;font-weight:700;}
+.wmin #menu_area .gnb .program_menu dl dd ul{width:100%;overflow:hidden;display: flex; flex-wrap: wrap;}
+.wmin #menu_area .gnb .program_menu dl dd ul li{font-size: 12px; width: 50%;  white-space: nowrap; text-overflow: ellipsis; padding: 4px 5px; box-sizing: border-box;height: auto; }
+.wmin #menu_area .gnb .program_menu dl dd ul li a{font-size: 12px;color: #555; width:100% ;overflow: hidden}
+.wmin #menu_area .gnb .program_menu dl dd ul li a:hover{font-size: 12px;color: #a47000;text-decoration: none;}
+.wmin #menu_area .gnb .program_menu dl dd ul.no{display: none;}
+.wmin #menu_area .gnb .program_menu .program_banner img{width: 100%;padding-top:12px;}
+
+.wmin #channel_gnb{width:100%;position: absolute;z-index: 998; background-color: #fff;border-top:none ;}
+.wmin #channel_gnb ul.channel_menu li{float:left;height:32px;background:#fff;width:20%;}
+.wmin #channel_gnb .btn_imtcast a{border-top: none;}
+/* end 2202 gnb 수정-추가 */
+
+/* 220314 TV Now 배너 교체 */
+.wmax #menu_area #channel_gnb .pc_r_banner{display: inline-block; margin-top: 8px; margin-left: 6px;}
+.wmin #menu_area #channel_gnb .pc_r_banner{display: none;}
+/* end 220314 TV Now 배너 교체 */
+
+.wmin #aside ul.sns{height: auto;}
+.wmin #aside ul.s_banner{display: none;}
+
+.wmin #contents .brand .brand_loca .movie_play {margin: 0 !important;}	/*채널소개 모바일 유튜브 영상 위치 조정*/
+
+/* 202206 sns 수정 */
+.wmax #aside ul.sns li{border: 1px solid #e7e7e7; border-radius: 5px;}
+.wmax #aside ul.sns li a{background-image: url(../../images/common/sns_arrow.png); background-repeat: no-repeat; background-position: 95% 50%; background-size: 10px 10px ; padding: 8px 10px; font-size: 12px;}
+.wmax #aside ul.sns li a .sns_name{height: 100%; text-decoration: none; color: #555; background-size: 24px 24px;background-repeat: no-repeat; padding-left: 34px;vertical-align: middle;display: flex; align-items: center;}
+.wmax #aside ul.sns li a .fb{ background-image: url(../../images/common/sns_fb_thum.png);  }
+.wmax #aside ul.sns li a .insta{ background-image: url(../../images/common/sns_insta_thum.png);  }
+.wmax #aside ul.sns li a .post{ background-image: url(../../images/common/sns_post_thum.png);  }
+.wmax #aside ul.sns li a .blog{ background-image: url(../../images/common/sns_blog_thum.png);  }
+.wmax #aside ul.sns li a .view{ background-image: url(../../images/common/sns_view_thum.png);  }
+.wmax #aside ul.sns li a .tv{ background-image: url(../../images/common/sns_tv_thum.png);  }
+.wmax #aside ul.sns li a .youtube{ background-image: url(../../images/common/sns_youtube_thum.png);  }
+
+
+.wmin #aside ul.sns{padding: 10px 0;}
+.wmin #aside ul.sns li{border: 1px solid #e7e7e7; border-radius: 5px;background-image: url(../../images/common/sns_arrow.png);  background-size: 10px 10px ; background-repeat: no-repeat; background-position: 97% 50%; margin-bottom: 4px;}
+.wmin #aside ul.sns li a span.sns_name{min-height:24px;text-decoration: none; color: #555; background-size: 24px 24px; background-repeat: no-repeat; display: flex; align-items: center;font-size: 13px; background-position: 8px 50%; padding: 8px 0 8px 40px;}
+.wmin #aside ul.sns li a span.fb{ background-image: url(../../images/common/sns_fb_thum.png);  }
+.wmin #aside ul.sns li a span.insta{ background-image: url(../../images/common/sns_insta_thum.png);  }
+.wmin #aside ul.sns li a span.post{ background-image: url(../../images/common/sns_post_thum.png);  }
+.wmin #aside ul.sns li a span.blog{ background-image: url(../../images/common/sns_blog_thum.png);  }
+.wmin #aside ul.sns li a span.view{ background-image: url(../../images/common/sns_view_thum.png);  }
+.wmin #aside ul.sns li a span.tv{ background-image: url(../../images/common/sns_tv_thum.png);  }
+.wmin #aside ul.sns li a span.youtube{ background-image: url(../../images/common/sns_youtube_thum.png);  }
+

@@ -1,0 +1,36 @@
+/* @import url("reset.css");
+@import url("common.css"); */
+
+
+/* contents */
+/* #contents:after {display:block; content:''; clear:both;} */
+.wmin #contents .main-showcase {display:none;}
+.wmax #contents .main-showcase-m {display:none;}
+.wmin #contents .main-showcase-m {display:none;}
+.wmin #contents .contents_box .channel_menu {display:none;}
+
+.wmin .s_banner {display:none;}
+
+/* .wmin #menu_area .gnb ul#main_menu .survey {display:none;}
+.wmax #menu_area .gnb ul#main_menu li.survey {width: 115px; line-height: 38px; position: absolute; top: 5px; right: 0px; padding-right: 5px; padding-left: 5px;}
+.wmax #menu_area .gnb ul#main_menu li.survey a.depth1_a{color:#666;}
+.wmax #menu_area .gnb ul#main_menu li.survey:hover a.depth1_a{color:#3b57bf;} */
+
+#contents .contents_box .channel_menu {position:relative; margin-bottom:30px; margin-top:10px; }
+#contents .contents_box .channel_menu:after {display:block; content:""; clear:both;}
+#contents .contents_box .channel_menu li {float:left;}
+#contents .contents_box .channel_menu li img {display:block; width: 97.7px; height: 60px;}
+#contents .contents_box .channel_menu li:hover .tooltip_text {visibility:visible;}
+#contents .contents_box .channel_menu li span.tooltip_text {visibility:hidden; position:absolute; top:75px; padding:8px 15px; text-align:left; color:#454545; border-radius:10px; background-color:#fff1cf;}
+#contents .contents_box .channel_menu li span.tooltip_text:after {content:""; position:absolute; bottom:100%; border-width:10px; border-style:solid; border-color:transparent transparent #fff1cf transparent;}
+#contents .contents_box .channel_menu li span.tooltip_text.left:after {left:20px;}
+#contents .contents_box .channel_menu li span.tooltip_text.right:after {right:20px;}
+
+
+#contents .contents_box .program_list:after {display:block; content:""; clear:both;}
+#contents .contents_box .program_list li {float:left; margin-right:16px; margin-bottom:16px;}
+#contents .contents_box .program_list li img {display:block;}
+#contents .contents_box .program_list li:nth-of-type(5n) {margin-right:0;}
+
+/* .wmin #contents .contents_box .program_list {display:none;} */
+#contents .contents_box .program_list li img {display:block;}

@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* 배경 */
+.wmax #wrap_bg{background:none;}
+.wmax #wrap_bg1{background:none;}
+.wmax #wrap_bg2{background:none;}
+
+/* header */
+.wmax #header .proinfo .select li.prev a{background:url(/cms/images/channel/btn_prev.png) no-repeat 0 0;}
+.wmax #header .proinfo .select li.next a{background:url(/cms/images/channel/btn_next.png) no-repeat 0 0;}
+
+/* 채널별 이미지변화 */
+.wmax #channel_gnb ul.channel_menu{background:#fff;}
+.wmax #channel_gnb ul.channel_menu li{float:left;}
+.wmax #channel_gnb ul.channel_menu li.menu1>a,
+.wmax #channel_gnb ul.channel_menu li.menu2>a,
+.wmax #channel_gnb ul.channel_menu li.menu3>a,
+.wmax #channel_gnb ul.channel_menu li.menu4>a,
+.wmax #channel_gnb ul.channel_menu li.menu5>a,
+.wmax #channel_gnb ul.channel_menu li.menu6>a,
+.wmax #channel_gnb ul.channel_menu li.menu7>a,
+.wmax #channel_gnb ul.channel_menu li.menu8>a,
+.wmax #channel_gnb ul.channel_menu li.menu9>a,
+.wmax #channel_gnb ul.channel_menu li.menu10>a,
+.wmax #channel_gnb ul.channel_menu li.menu11>a,
+.wmax #channel_gnb ul.channel_menu li.menu12>a{color: #444;}
+.wmax #channel_gnb ul.channel_menu li.menu1>a{background:url(/cms/images/channel/bg_menu1.jpg) no-repeat 0 0;}
+.wmax #channel_gnb ul.channel_menu li.menu2>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu3>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu4>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu5>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu6>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu7>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu8>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu9>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu10>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu11>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu12>a{border: 1px solid #B2B2B2;}
+.wmax #channel_gnb ul.channel_menu li.menu1>a:hover{background:#DEDEDE url(/cms/images/channel/bg_menu1.jpg) no-repeat 0 0;}
+.wmax #channel_gnb ul.channel_menu li.menu2>a:hover, 
+.wmax #channel_gnb ul.channel_menu li.menu3>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu4>a:hover, 
+.wmax #channel_gnb ul.channel_menu li.menu5>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu6>a:hover, 
+.wmax #channel_gnb ul.channel_menu li.menu7>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu8>a:hover, 
+.wmax #channel_gnb ul.channel_menu li.menu9>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu10>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu11>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu12>a:hover,
+.wmax #channel_gnb ul.channel_menu li.menu2>a.on, 
+.wmax #channel_gnb ul.channel_menu li.menu3>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu4>a.on, 
+.wmax #channel_gnb ul.channel_menu li.menu5>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu6>a.on, 
+.wmax #channel_gnb ul.channel_menu li.menu7>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu8>a.on, 
+.wmax #channel_gnb ul.channel_menu li.menu9>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu10>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu11>a.on,
+.wmax #channel_gnb ul.channel_menu li.menu12>a.on{background:#DEDEDE;text-decoration:none;}
+.wmax #channel_gnb div.pc{background:#FFFFFF;border-top: 1px solid #B2B2B2;}
+.wmax #channel_gnb div.pc a img{border:1px solid #777;}
+
+/* 채널 상세내용 */
+.wmax #channel_gnb div.detail{width:697px;height:415px;margin:0 6px;border-bottom:1px solid #b0650e;border-left:1px solid #b0650e;border-right:1px solid #b0650e;background:#f87b00 url(/cms/images/channel/bg_datali2.png) no-repeat 0 0;position:absolute;top:196px;left:0;display:none;}
+.wmax #channel_gnb div.detail.off{background:#f87b00 url(/cms/images/channel/bg_datali.png) no-repeat 0 0;}
+.wmax #channel_gnb div.detail div.tv_ing,
+.wmax #channel_gnb div.detail div.program_area{background:url(/cms/images/channel/bg_repeat4.gif) repeat-x left bottom;}
+.wmax #channel_gnb div.detail{border-bottom:1px solid #B2B2B2;border-left:1px solid #B2B2B2;border-right:1px solid #B2B2B2;background:#F3F3F3 url(/cms/images/channel/bg_datali2.png) no-repeat 0 0;}
+.wmax #channel_gnb div.detail.off{background:#F3F3F3 url(/cms/images/channel/bg_datali.png) no-repeat 0 0;}
+
+/* 채널 상세내용 - 메인인트로(TV NOW) */
+.wmax #channel_gnb div.detail.main .ch_title a{color: #fff;}
+.wmax #channel_gnb div.detail.main .ch_title span{color:#fff;}
+.wmax #channel_gnb div div.channel_vod_area2 ul li a{color:#444;}
+.wmax #channel_gnb div div.channel_vod_area2 p.title{color:#444;}
+.wmax #channel_gnb div.detail.main div.channel_vod_area_main ul{background:url(/cms/images/channel/bg_repeat3.gif) repeat-y 182px 0;}
+
+/* 채널 상세내용 - 제목 */
+.wmax #channel_gnb div p.ch_title a{color:#fff;}
+.wmax #channel_gnb div div p.title{color:#444;}
+
+/* 채널 상세내용 - TV NOW */
+.wmax #channel_gnb div div.tv_ing p.title{color:#444;}
+.wmax #channel_gnb div div.tv_ing ul li a{color:#444;}
+.wmax #channel_gnb div div.tv_ing ul li.now a{color:#444;}
+
+/* 채널 상세내용 - 방영프로그램 & 종영프로그램 */
+.wmax #channel_gnb div div.program_area p.title{color:#444;}
+.wmax #channel_gnb div div.program_area div ul li{color:#444;}
+.wmax #channel_gnb div div.program_area div ul li a{color:#444;}
+.wmax #channel_gnb div div.program_area div a.prev{left:106px;width:15px;background:url(/cms/images/channel/btn_prev.png) no-repeat 0 0;}
+.wmax #channel_gnb div div.program_area div a.next{left:120px;width:15px;background:url(/cms/images/channel/btn_next.png) no-repeat 0 0;}
+
+/* 채널 상세내용 - 채널 인기 VOD */
+.wmax #channel_gnb div div.channel_vod_area p.title{color:#444;}
+.wmax #channel_gnb div div.channel_vod_area ul li a{color:#444;}
+
+/* aside - common */
+.wmax #aside .banner{border: 1px solid #999;}
+.wmax #aside .bx-wrapper{border: 1px solid #999;}
